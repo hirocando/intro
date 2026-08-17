@@ -1,0 +1,5 @@
+# AIPM S01 RESULT
+
+```json
+{"claude_result_utf8_bytes":18,"claude_is_error":false,"claude_stop_reason":"end_turn","failure_fingerprint":null,"claude_exit_code":0,"started_at_utc":"2026-08-17T10:00:38Z","raw_log_reference":null,"gate_result":null,"claude_errors":null,"claude_envelope_subtype":"success","claude_envelope_type":"result","next_gate_candidate":null,"source_task_packet_id":"dcc463b1-9ec6-4fa3-b1b8-0760c7cd7ac1","producer":"windows_claude_code_oneshot_worker","packet_id":"a4f52a4f-fd66-4abf-9cb8-14237d3a0452","claude_result_sha256":"5e5cc50d3c6cf8482550f1c4f618be437abe0971da04bb0ec1a439055f58a99d","artifacts":[],"evidence_refs":[],"result":null,"finished_at_utc":"2026-08-17T10:00:42Z","work_item_id":"0f509fb7-6928-4393-a102-7c2ecfa84883","mutation_performed":null,"packet_type":"RESULT","attempt_id":"8ac72a0e-7b96-43ad-a7c7-e17eae7a260c","schema_version":"0.1","failure_class":null,"human_decision_required":null,"claude_result_text":"AIPM_LIVE_PILOT_OK","mutation_count":null}
+```
