@@ -1,0 +1,7 @@
+# AIPM GitHub Forward TEST_ONLY Worker Expired Task
+
+This artifact is for the approved GitHub Forward L6 isolated Worker synthetic only. It is intentionally expired and MUST NOT execute Claude.
+
+```json
+{"schema_version":"0.1","packet_type":"TASK","packet_id":"0e5e87d2-9d0e-4cf3-8a22-17ef2dccd7c4","work_item_id":"6bb82cb0-59c2-4ac5-b220-6f3623dd934a","attempt_id":"cecf30ba-a3d9-4f5a-9e8c-bc98b3f91f47","worker":"windows_claude_code_oneshot_worker","goal":"TEST_ONLY Worker parser/deadline synthetic. This Task is intentionally expired and must be skipped before ACK/Claude execution.","success_criteria":["Canonical Worker parses the Task and reports ACK_DEADLINE_EXCEEDED","No ACK or RESULT is created","Claude is not invoked"],"failure_criteria":["Any Claude execution","Any ACK or RESULT creation","Any mutation outside the isolated local runtime and this TEST_ONLY GitHub artifact"],"scope":["hirocando/intro public test repository","isolated LocalAppData runtime only"],"constraints":["TEST_ONLY","INTENTIONALLY_EXPIRED","NO_CLAUDE_EXECUTION","NO_SCHEDULED_TASK"],"inputs":[],"evidence_refs":[],"allowed_actions":[],"prohibited_actions":["Agent"],"human_gate_conditions":["Any attempt to execute Claude must STOP"],"expected_output":"Worker emits ACK_DEADLINE_EXCEEDED and exits without ACK/RESULT/Claude.","ack_deadline_utc":"2026-08-17T08:45:00Z","result_deadline_utc":"2026-08-17T08:45:00Z"}
+```
